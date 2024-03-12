@@ -47,7 +47,7 @@ classDiagram
          Pila: +esVacia():boolean
          Pila: +apilar(valor:T)
          Pila: +retirar()
-         Pila: +retirar()
+   
          Pila: +cima()
 
       } 
