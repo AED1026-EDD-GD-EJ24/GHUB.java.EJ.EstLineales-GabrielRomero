@@ -1,12 +1,13 @@
 package miPrincipal;
 
 public class Pila<T>{
+    
     //Atributo cabeza apunta al tope de la fila
     private Nodo<T> cabeza;
     //Almacena el total de elementos de la pila
     private int tamanio;
     //Constructor por defecto
-    private Pila(){
+    public Pila(){
         cabeza=null;
         tamanio=0;
     }
@@ -16,7 +17,7 @@ public class Pila<T>{
     }
         //Verifica si la fila esta vacia
     public boolean esVacia(){
-        return(cabeza == null);
+        return (cabeza == null);
     }
     public void apilar(T valor){
         //crear un nuevo nodo
