@@ -49,7 +49,7 @@ public class Delimitadores{
                             masElementosPorLeer = false;
                         }
                     }
-
+                    break;
                 }
                 case '*':
                      if(siguienteEsDiagonal(cadena,i) ){
@@ -70,7 +70,7 @@ public class Delimitadores{
 
     }//Termina metodo
 
-    private statico String charToString(char ch){
+    private static String charToString(char ch){
         return String.valueOf(ch);
     }
     private static boolean siguienteEsAsterisco(String cadena,int posicion){
