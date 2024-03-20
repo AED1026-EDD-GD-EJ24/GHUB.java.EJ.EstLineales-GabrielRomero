@@ -5,6 +5,7 @@
 ./miPrincipal/Principal.java
 ./miPrincipal/DemoStack.java
 ./miPrincipal/DemoDelimitadores.java
+./miPrincipal/Demoqueue.java
 ./miPrincipal/DemoPila.java
 ./miPrincipal/Cola.java
 ./miPrincipal/DemoCola.java
